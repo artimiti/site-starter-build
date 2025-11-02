@@ -1,2 +1,1 @@
-# Sites-Projectexamplename
-Package for site Projectexamplename
+Раскоментировать .phing и .packages в .gitignore
