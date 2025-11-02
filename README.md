@@ -1,1 +1,1 @@
-Раскоментировать .phing и .packages
+Раскоментировать .phing и .packages в .gitignore
