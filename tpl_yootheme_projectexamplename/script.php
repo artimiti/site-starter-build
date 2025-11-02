@@ -1,6 +1,6 @@
 <?php
 /*
- * @package     DanceHub Site Template
+ * @package     Projectexamplename Site Template
  * @version     __DEPLOY_VERSION__
  * @author      SEOexpert Studio - seoexpert.by
  * @copyright   Copyright (c) 2025 SEOexpert Studio. All Rights Reserved.
@@ -144,7 +144,7 @@ return new class () implements ServiceProviderInterface {
 				$query = $db->getQuery(true)
 					->select(['id', 'params'])
 					->from($db->quoteName('#__template_styles'))
-					->where($db->quoteName('template') . ' = ' . $db->quote('yootheme_dancehub'));
+					->where($db->quoteName('template') . ' = ' . $db->quote('yootheme_projectexamplename'));
 				if (!$update = $db->setQuery($query, 0, 1)->loadObject())
 				{
 					return;
@@ -164,8 +164,8 @@ return new class () implements ServiceProviderInterface {
 
 					$source              = (new Registry($source));
 					$config              = json_decode($source->get('config', '{}'));
-					$config->child_theme = 'dancehub';
-					$config->style       = 'dancehub';
+					$config->child_theme = 'projectexamplename';
+					$config->style       = 'projectexamplename';
 
 					$update->params->set('config', json_encode($config));
 					$update->params = $update->params->toString();

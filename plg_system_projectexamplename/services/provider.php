@@ -17,7 +17,7 @@ use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\DI\Container;
 use Joomla\DI\ServiceProviderInterface;
 use Joomla\Event\DispatcherInterface;
-use Joomla\Plugin\System\Dancehub\Extension\Dancehub;
+use Joomla\Plugin\System\Projectexamplename\Extension\Projectexamplename;
 
 return new class implements ServiceProviderInterface {
 
@@ -34,10 +34,10 @@ return new class implements ServiceProviderInterface {
 
 		$container->set(PluginInterface::class,
 			function (Container $container) {
-				$plugin     = PluginHelper::getPlugin('system', 'dancehub');
+				$plugin     = PluginHelper::getPlugin('system', 'projectexamplename');
 				$subject    = $container->get(DispatcherInterface::class);
 
-				$plugin = new Dancehub($subject, (array) $plugin);
+				$plugin = new Projectexamplename($subject, (array) $plugin);
 				$plugin->setApplication(Factory::getApplication());
 
 				return $plugin;

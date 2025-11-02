@@ -1,6 +1,6 @@
 <?php
 /*
- * @package    DanceHub Site Package
+ * @package    Projectexamplename Site Package
  * @version     __DEPLOY_VERSION__
  * @author      SEOexpert Studio - seoexpert.by
  * @copyright   Copyright (c) 2025 SEOexpert Studio. All Rights Reserved.
@@ -92,7 +92,7 @@ return new class () implements ServiceProviderInterface {
 				 *
 				 * @since __DEPLOY_VERSION__
 				 */
-				protected string $constant = "PKG_SITE_DANCEHUB";
+				protected string $constant = "PKG_SITE_PROJECTEXAMPLENAME";
 
 				/**
 				 * Update methods.

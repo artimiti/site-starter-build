@@ -1,6 +1,6 @@
 <?php
 /*
- * @package     DanceHub Site System Plugin
+ * @package     Projectexamplename Site System Plugin
  * @version     __DEPLOY_VERSION__
  * @author      SEOexpert Studio - seoexpert.by
  * @copyright   Copyright (c) 2025 SEOexpert Studio. All Rights Reserved.
@@ -8,7 +8,7 @@
  * @link        https://seoexpert.by/
  */
 
-namespace Joomla\Plugin\System\Dancehub\Extension;
+namespace Joomla\Plugin\System\Projectexamplename\Extension;
 
 use Joomla\CMS\Factory;
 use Joomla\CMS\Language\Text;
@@ -17,7 +17,7 @@ use Joomla\CMS\Plugin\CMSPlugin;
 use Joomla\Event\SubscriberInterface;
 
 \defined('_JEXEC') or die;
-class Dancehub extends CMSPlugin implements SubscriberInterface
+class Projectexamplename extends CMSPlugin implements SubscriberInterface
 {
 	use MVCFactoryAwareTrait;
 

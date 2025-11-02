@@ -1,2 +1,2 @@
-# Sites-DanceHub
-Package for site DanceHub
+# Sites-Projectexamplename
+Package for site Projectexamplename

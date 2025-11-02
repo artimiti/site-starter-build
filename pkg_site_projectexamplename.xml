@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="package" method="upgrade">
-	<name>PKG_SITE_DANCEHUB</name>
-	<packagename>site_dancehub</packagename>
+	<name>PKG_SITE_PROJECTEXAMPLENAME</name>
+	<packagename>site_projectexamplename</packagename>
 	<author>SEOexpert Team</author>
 	<creationDate>September 2025</creationDate>
 	<copyright>Copyright (c) 2025 SEOexpert Studio. All Rights Reserved.</copyright>
@@ -9,14 +9,14 @@
 	<authorEmail>info@seoexpert.by</authorEmail>
 	<authorUrl>https://seoexpert.by/</authorUrl>
 	<version>__DEPLOY_VERSION__</version>
-	<description>PKG_SITE_DANCEHUB_DESCRIPTION</description>
+	<description>PKG_SITE_PROJECTEXAMPLENAME_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<languages folder="language">
-		<language tag="en-GB">en-GB/pkg_site_dancehub.sys.ini</language>
-		<language tag="ru-RU">ru-RU/pkg_site_dancehub.sys.ini</language>
+		<language tag="en-GB">en-GB/pkg_site_projectexamplename.sys.ini</language>
+		<language tag="ru-RU">ru-RU/pkg_site_projectexamplename.sys.ini</language>
 	</languages>
 	<files>
-		<folder type="plugin" group="system" id="dancehub">plg_system_dancehub</folder>
-		<folder type="template" client="site" id="tpl_yootheme_dancehub">tpl_yootheme_dancehub</folder>
+		<folder type="plugin" group="system" id="projectexamplename">plg_system_projectexamplename</folder>
+		<folder type="template" client="site" id="tpl_yootheme_projectexamplename">tpl_yootheme_projectexamplename</folder>
 	</files>
 </extension>
