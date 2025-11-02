@@ -11,7 +11,7 @@
 		@task  Reset for dev    Change version variables to developer version
 		@task  Package dev      Package developer version
 	-->
-	<property name="name" value="projectexamplename"/>
+	<property name="name" value="pkg_site_projectexamplename"/>
 	<property name="version" value="0.0.0"/>
 	<property name="root" value=".."/>
 	<taskdef name="project" classname="ProjectTask"/>
